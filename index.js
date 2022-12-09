@@ -2,9 +2,8 @@
 const express = require('express');
 const bodyParser = require("body-parser");
 const mongoose = require('mongoose');
-const PORT = 3000
-const DB = "mongodb+srv://cherifhassan:borkounou123@cluster0.gyhgeap.mongodb.net/?retryWrites=true&w=majority";
-
+const PORT = 3000;
+const DB = "";
 const app = express();
 
 // Import FROM OTHER FILES
